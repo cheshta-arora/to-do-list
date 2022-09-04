@@ -1,0 +1,157 @@
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+   /* align-items: center;  */
+}
+
+body{
+top: 0px;
+left: 0px;
+width: 1366px;
+height: 1368px; 
+background: #F7F7F7 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+
+
+.nav{
+  top: 0px;
+left: 0px;
+width: 1515px;
+height: 94px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 30px #7B7B7B29;
+opacity: 1;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+align-content: center;
+justify-content: space-between;
+}
+.nav_content{
+  top: 23px;
+  left: 137px;
+  width: 196px;
+  height: 49px;
+  text-align: left;
+  font: normal normal bold 40px/49px Inter;
+  letter-spacing: 0px;
+  opacity: 1;
+  margin-left: 50px;
+}
+.add{
+  top: 130px;
+left: 1011px;
+width: 215px;
+height: 50px;
+opacity: 1;
+float: right;
+}
+
+.button{
+top: 130px;
+left: 1011px;
+width: 50px;
+height: 50px;
+
+background: #00A5EC 0% 0% no-repeat padding-box;
+opacity: 1;
+border-radius: 50px;
+border: none;
+text-align: center;
+color: white;
+font-size: 20px;
+
+} 
+.add_text{
+top: 142px;
+left: 1076px;
+width: 150px;
+height: 26px;
+
+font: normal normal normal 22px/26px Inter;
+letter-spacing: 0px;
+color: #424242;
+opacity: 1; 
+}
+
+
+
+
+#box-div{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 140px;  
+  margin-left:  10%;
+  
+
+}
+.box{
+      height: 250px;
+      width: 300px;
+      border-radius: 5px;
+      border: 2px solid red;
+      background-color: white;
+      margin: 2%;
+      padding: 2%;
+}
+.box h2{
+  color: #4caf50;
+  padding: 10px; 
+}
+
+#card{
+      display: grid;
+      justify-content: space-evenly;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto;
+      gap:50px;
+   
+   
+      
+}
+.cardp{
+  width: 352px;
+  height: 360px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 5px 5px 8px #00A5EC, 10px 10px 8px #F7F7F7, 15px 15px 8px white;
+  border-radius: 10px;
+  opacity: 1;
+  margin-left:  10%;
+ 
+}
+.cardp h2{
+  text-align: center;
+  font-weight:bolder;
+  font-size: 30px;
+  padding-top: 10px;
+  font: normal normal medium 20px/24px Inter;
+letter-spacing: 0px;
+color: #00A5EC;
+opacity: 1;
+}
+li{
+  cursor: pointer;
+  position: relative;
+  
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s; 
+  text-decoration: none;
+}
+li:nth-child(odd) {
+  background: #f9f9f9;
+}
+li:hover {
+  background: #ddd;
+}
+li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
