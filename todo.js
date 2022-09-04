@@ -19,7 +19,8 @@ function createheading(){
 let cnt = 0;
 function createlist (e, arr ){
 
-        for(var j = 0 ; j<=1000 ; j++){
+        for(var j = 0 ; j<=arr.length ; j++){
+                console.log(arr.length);
                 if(e?.target?.id === arr[j]){
 
                         var list= String(prompt("ENTER THE Items"));
